@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f8f8f8;
+    color: #222;
+  }
+
+  header {
+    background: #111;
+    color: gold;
+    text-align: center;
+    padding: 20px;
+  }
+
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+  }
+
+  nav {
+    background: #222;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 12px;
+  }
+
+  nav a {
+    color: gold;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    color: white;
+  }
+
+  section {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.2);
+  }
+
+  section h2 {
+    color: #111;
+    border-bottom: 2px solid gold;
+    padding-bottom: 8px;
+  }
+
+  .stats-table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .stats-table th, .stats-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .stats-table th {
+    background: #111;
+    color: gold;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .gallery img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    transition: transform 0.3s;
+  }
+
+  .gallery img:hover {
+    transform: scale(1.05);
+  }
+
+  footer {
+    background: #111;
+    color: #aaa;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+  }
