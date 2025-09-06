@@ -1,0 +1,14 @@
+#cc{
+   background-color: black; 
+   text-align: center;
+}
+a{
+  color: white; 
+  background-color:brown; 
+  text-decoration:none ;
+  margin-left: 20px;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}

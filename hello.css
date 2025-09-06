@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-color: rgb(75,88 ,61 );
+}
+h1{
+    font-size: 100px;
+    border: 8px rgb(245, 245, 249) double;
+    border-radius: 12px;
+    margin: 110px;
+    padding: 80px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+}
+a:hover{
+    color: rgb(253, 253, 255);
+}
